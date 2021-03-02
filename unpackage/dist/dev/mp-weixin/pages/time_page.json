@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "时间选择",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "date-time-picker": "/components/bory-dateTimePicker/bory-dateTimePicker"
+  }
+}

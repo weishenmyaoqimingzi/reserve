@@ -1,0 +1,1 @@
+{"version":3,"sources":["uni-app:///main.js"],"names":["createPage","Page"],"mappings":";;;;;;;;;;kDAAA,wCAAmB;AACnB;AACA,8F;AACAA,UAAU,CAACC,kBAAD,CAAV,C","file":"pages/img2_page.js","sourcesContent":["import 'uni-pages';import '@dcloudio/uni-stat';\nimport Vue from 'vue'\nimport Page from './pages/img2_page.vue'\ncreatePage(Page)"],"sourceRoot":""}

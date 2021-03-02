@@ -1,0 +1,68 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/index",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "通用方法示例"
+		    }
+		},
+		{
+			"path": "pages/reserve_page",
+			"style": {
+				"navigationBarTitleText": "选择场次",
+				"enablePullDownRefresh": false
+			}
+
+		}
+        ,{
+            "path" : "pages/time_page",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "时间选择",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/map_page",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "地图选择",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/img_page",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "图片上传",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7a7e83",
+		"selectedColor": "#0faeff",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index",
+			"text": "功能",
+			"iconPath": "static/img/home.png",
+			"selectedIconPath": "static/img/homeHL.png"
+		}, {
+			"pagePath": "pages/img_page",
+			"text": "图片上传",
+			"iconPath": "static/img/user.png",
+			"selectedIconPath": "static/img/userHL.png"
+		}]
+	}
+}

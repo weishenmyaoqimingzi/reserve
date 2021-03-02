@@ -1,0 +1,19 @@
+
+.cell-pd {
+	padding: 22rpx 30rpx;
+}
+.list-pd {
+	margin-top: 50rpx;
+}
+.del_icon {
+	width: 50rpx;
+	height: 50rpx;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 9999;
+}
+.uni-uploader__file {
+	position: relative;
+}
+
